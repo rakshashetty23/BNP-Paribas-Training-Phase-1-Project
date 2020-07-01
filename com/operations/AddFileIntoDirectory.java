@@ -13,7 +13,7 @@ public class AddFileIntoDirectory {
 			boolean op = f1.createNewFile();
 			
 			if(op == true) {
-				System.out.println(fileName + " created successfully !!!");
+				System.out.println(fileName + " added successfully !!!");
 			}
 			else {
 				System.out.println("A file with same name already exists");
